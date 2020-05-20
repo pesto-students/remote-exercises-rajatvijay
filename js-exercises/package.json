@@ -28,7 +28,7 @@
   },
   "lint-staged": {
     "!(*.test).js": [
-      "eslint"
+      "eslint --fix"
     ]
   }
 }
