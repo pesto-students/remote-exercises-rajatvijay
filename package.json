@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "download": "pesto download -e ",
     "checkout-problem-branch": "git checkout -b $npm_config_problem master",
-    "workon": "npm run checkout-problem-branch && npm run download $npm_config_problem"
+    "workon": "git checkout -b $npm_config_problem master && pesto download -e $npm_config_problem"
   },
   "keywords": [],
   "author": "",
